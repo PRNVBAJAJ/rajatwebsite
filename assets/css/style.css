@@ -159,7 +159,7 @@ h1, h3, h4, h5, h6 {
 
 .nav-menu .book-a-table a:hover {
   background: #ffa012;
-  color: #fff;
+  color: #ed3737;
 }
 
 .nav-menu .drop-down ul {
@@ -575,7 +575,7 @@ section {
 }
 .services .imgrec
 {
-  margin-bottom: 12px;
+  margin-bottom: 12
 }
 .services .icon-box .icon {
   margin: 0 auto;
