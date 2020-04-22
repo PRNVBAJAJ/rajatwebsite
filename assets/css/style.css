@@ -527,6 +527,67 @@ h1, h3, h4, h5, h6 {
     width: 5%;
   }
 }
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #58716d;
+  font-family: "Poppins", sans-serif;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bbca3;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.about .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #58716d;
+}
+
+.about .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.about .progress-bar-wrap {
+  background: #e6eceb;
+}
+
+.about .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #1bbca3;
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
