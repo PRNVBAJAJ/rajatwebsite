@@ -149,14 +149,7 @@
     $(this).find('p').addClass('animated fadeInUp');
     $(this).find('.btn-get-started').addClass('animated fadeInUp');
   });
-  // Skills section
-  $('.skills-content').waypoint(function() {
-    $('.progress .progress-bar').each(function() {
-      $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    });
-  }, {
-    offset: '80%'
-  });
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -211,5 +204,12 @@
   $(document).ready(function() {
     $('.venobox').venobox();
   });
-
+  //Aboutus section
+  $('.skills-content').waypoint(function() {
+    $('.progress .progress-bar').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
+  });
 })(jQuery);
