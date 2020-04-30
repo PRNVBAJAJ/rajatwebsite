@@ -908,6 +908,17 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+ 
+/*
+#why-us .back1
+ {
+   background-image: url("../img/Shutterstock/onestopsolutions-ph.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   
+ }
+ */
+
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
