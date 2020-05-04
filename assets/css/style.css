@@ -364,7 +364,48 @@ h1, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+/*video back*/
+#videoBG
+{
+  
+  z-index: -1;
+  width: 100%;
+ 
+}
+@media(min-aspect-ratio: 16/9)
+{
+  #videoBG
+  {
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio: 16/9)
+{
+  #videoBG
+  {
+    width: auto;
+    height: 100vh;
+  }
+}
 
+@media(max-width: 767px)
+{
+  #videoBG
+  {
+    width: auto;
+    height: 100vh;
+    
+  }
+
+}
+
+
+
+
+
+
+/*video back ends*/
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
