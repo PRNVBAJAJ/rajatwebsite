@@ -473,7 +473,7 @@ h1, h3, h4, h5, h6 {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   font-size: 18px;
-  font-family:Comic;
+  font-family: 'Righteous', cursive;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
@@ -1240,6 +1240,11 @@ section {
   .events .testimonial-item p {
     width: 80%;
   }
+}
+
+.events .font-italic{
+ font-family: 'Ubuntu Condensed', sans-serif;
+ font-size: 23px;
 }
 
 /*--------------------------------------------------------------
